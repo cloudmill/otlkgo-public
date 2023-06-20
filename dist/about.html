@@ -5,16 +5,15 @@
 		<meta charset="utf-8">
 		<title>test-html</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-		<script defer="defer" src="assets/vendor.js"></script>
 		<script defer="defer" src="assets/app.js"></script>
-		<link href="styles.css" rel="stylesheet">
+		<link href="461.css" rel="stylesheet">
 		<link href="app.css" rel="stylesheet">
 	</head>
 
-	<body class="body">
+	<body class="body body--notransition">
 		<div class="wrapper">
 			<main class="main">
-				<section class="calendar mt-section" id="section-who-we-calendar">
+				<section class="calendar mt-section" data-aos="fade-up" id="section-who-we-calendar">
 					<div class="container-content">
 						<div class="calendar__inner">
 							<h2 class="calendar__title">Календарь событий 2022</h2>
@@ -324,7 +323,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="indicators mt-section" id="section-indicators">
+				<section class="indicators mt-section" data-aos="fade-up" id="section-indicators">
 					<div class="indicators__inner">
 						<div class="indicators__top">
 							<div class="indicators__row-top">
@@ -442,7 +441,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="indicators-finance mt-section">
+				<section class="indicators-finance mt-section" data-aos="fade-up">
 					<div class="container-content">
 						<div class="indicators-finance__inner">
 							<h6 class="indicators-finance__title">Финансовые показатели 2020-2022 годов</h6>
@@ -459,7 +458,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preview custom-id" id="section-business">
+				<section class="preview custom-id" data-aos="fade-up" id="section-business">
 					<div class="preview__container">
 						<div class="preview__inner">
 							<div class="preview__line"></div>
@@ -527,7 +526,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="business mt-section">
+				<section class="business mt-section" data-aos="fade-up">
 					<div class="container-content">
 						<div class="business__inner">
 							<p class="business__description description_big">Совет директоров Общества утвердил новую редакцию операционной модели 27 декабря 2021 года (протокол от 27.12.2021 №46). Она содержит следующие элементы сегментации контейнерных перевозок:</p>
@@ -576,7 +575,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="business-info mt-section">
+				<section class="business-info mt-section" data-aos="fade-up">
 					<div class="container-content">
 						<div class="business-info__inner">
 							<div class="business-info__left">
@@ -601,7 +600,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="geography mt-section">
+				<section class="geography mt-section" data-aos="fade-up">
 					<div class="geography__inner">
 						<div class="geography__top">
 							<div class="container-content">
@@ -680,7 +679,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preview">
+				<section class="preview" data-aos="fade-up">
 					<div class="preview__container">
 						<div class="preview__inner">
 							<div class="preview__line"></div>
@@ -724,7 +723,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="corruption mt-section" id="section-corruption">
+				<section class="corruption mt-section" data-aos="fade-up" id="section-corruption">
 					<div class="container-content">
 						<div class="corruption__inner">
 							<h3 class="corruption__title">Задачи антикоррупционной политики</h3>
@@ -765,7 +764,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="corruption-principles mt-section" id="section-principles">
+				<section class="corruption-principles mt-section" data-aos="fade-up" id="section-principles">
 					<div class="container-content">
 						<div class="corruption-principles__inner">
 							<h3 class="corruption-principles__title">Принципы безопасности</h3>
@@ -818,7 +817,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="corruption-examenation mt-section" id="section-examenation">
+				<section class="corruption-examenation mt-section" data-aos="fade-up" id="section-examenation">
 					<div class="container-content">
 						<div class="corruption-examenation__inner">
 							<h3 class="corruption-examenation__title">Система проверки контрагентов</h3>
@@ -833,7 +832,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="corruption-counterparty mt-section" id="section-counterparty">
+				<section class="corruption-counterparty mt-section" data-aos="fade-up" id="section-counterparty">
 					<div class="container-content">
 						<div class="corruption-counterparty__inner">
 							<h2 class="corruption-counterparty__title">Одобренные контрагенты в&nbsp;2022&nbsp;году</h2>
@@ -854,7 +853,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="next">
+				<section class="next" data-aos="fade-up">
 					<div class="container">
 						<div class="next__inner">
 							<p class="next__text">Следующий раздел</p>
@@ -867,9 +866,8 @@
 										<stop offset="0.598958" stop-color="#B6EBC9" stop-opacity="0"></stop>
 									</lineargradient>
 								</defs>
-							</svg><a class="button" href="#"><svg class="button-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M6.25 17.5L13.75 10L6.25 2.5" stroke="white" stroke-width="1.5"></path>
-								</svg></a>
+							</svg>
+							<div class="button"><a class="button__item" href="#"><span class="button__span"><span class="button__hover"><svg class="button__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.25 17.5L13.75 10L6.25 2.5" stroke="white" stroke-width="1.5"></path></svg></span></span></a></div>
 						</div>
 					</div>
 				</section>

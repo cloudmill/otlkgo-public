@@ -5,16 +5,15 @@
 		<meta charset="utf-8">
 		<title>test-html</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-		<script defer="defer" src="assets/vendor.js"></script>
 		<script defer="defer" src="assets/app.js"></script>
-		<link href="styles.css" rel="stylesheet">
+		<link href="461.css" rel="stylesheet">
 		<link href="app.css" rel="stylesheet">
 	</head>
 
-	<body class="body">
+	<body class="body body--notransition">
 		<div class="wrapper">
 			<main class="main">
-				<section class="preview pahomov-preview">
+				<section class="preview pahomov-preview" data-aos="fade-up">
 					<div class="preview__container">
 						<div class="preview__inner">
 							<div class="preview__line"></div>
@@ -55,7 +54,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preview custom-id" id="formation-park">
+				<section class="preview custom-id" data-aos="fade-up" id="formation-park">
 					<div class="preview__container">
 						<div class="preview__inner">
 							<div class="preview__line"></div>
@@ -91,7 +90,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preview custom-id" id="client-portfolio">
+				<section class="preview custom-id" data-aos="fade-up" id="client-portfolio">
 					<div class="preview__container">
 						<div class="preview__inner">
 							<div class="preview__line"></div>
@@ -110,10 +109,10 @@
 									<div class="kosticova">
 										<p class="kosticova__description description">Ряд факторов обеспечил активный рост клиентского портфеля ОТЛК ЕРА в 2022 году.  Среди них – высокая степень надежности, уровень сервисного обслуживания и поддержки клиентов. </p>
 										<div class="kosticova__row">
-											<div class="item">
+											<div class="item item_size-2">
 												<div class="item__row">
 													<div class="item__col">
-														<p class="item__number">65</p>
+														<p class="item__number" data-countup="65"></p>
 													</div>
 													<div class="item__col">
 														<p class="item__grey">компаний</p>
@@ -123,10 +122,10 @@
 													<p class="item__subtext">Привлекли к комплексному обслуживанию с начала года</p>
 												</div>
 											</div>
-											<div class="item">
+											<div class="item item_size-2">
 												<div class="item__row">
 													<div class="item__col">
-														<p class="item__number">23</p>
+														<p class="item__number" data-countup="23"></p>
 													</div>
 													<div class="item__col">
 														<p class="item__grey">из них</p>
@@ -155,7 +154,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preview custom-id" id="preview-main-line">
+				<section class="preview custom-id" data-aos="fade-up" id="preview-main-line">
 					<div class="preview__container">
 						<div class="preview__inner">
 							<div class="preview__line"></div>
@@ -187,7 +186,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="direction-automation mt-section" id="direction-automation">
+				<section class="direction-automation mt-section" data-aos="fade-up" id="direction-automation">
 					<div class="container-content">
 						<div class="direction-automation__inner">
 							<h3 class="direction-automation__title">Автоматизация внутренних бизнес-процессов</h3>
@@ -223,7 +222,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="direction-site mt-section" id="direction-site">
+				<section class="direction-site mt-section" data-aos="fade-up" id="direction-site">
 					<div class="container-content">
 						<div class="direction-site__inner">
 							<h3 class="direction-site__title">Сайт компании</h3>
@@ -243,7 +242,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="direction-documents mt-section" id="direction-documents">
+				<section class="direction-documents mt-section" data-aos="fade-up" id="direction-documents">
 					<div class="container-content">
 						<div class="direction-documents__inner">
 							<h3 class="direction-documents__title">Электронная накладная</h3>
@@ -253,7 +252,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preview lazutova" id="preview-section-save">
+				<section class="preview lazutova" data-aos="fade-up" id="preview-section-save">
 					<div class="preview__container">
 						<div class="preview__inner">
 							<div class="preview__line"></div>
@@ -285,7 +284,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preservation-finance mt-section">
+				<section class="preservation-finance mt-section" data-aos="fade-up">
 					<div class="container-content" id="preservation-finance">
 						<div class="preservation-finance__inner">
 							<h2 class="preservation-finance__title">Финансовый обзор</h2>
@@ -301,7 +300,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preservation-dynamic mt-section">
+				<section class="preservation-dynamic mt-section" data-aos="fade-up">
 					<div class="container-content">
 						<div class="preservation-dynamic__inner">
 							<h6 class="preservation-dynamic__title">Динамика основных финансовых показателей за 2020–2022 годы, млн руб</h6>
@@ -318,7 +317,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="block-diagram mt-section preservation-revenue" id="preservation-revenue">
+				<section class="block-diagram mt-section preservation-revenue" data-aos="fade-up" id="preservation-revenue">
 					<div class="container-content">
 						<div class="block-diagram__inner">
 							<div class="block-diagram__row">
@@ -331,17 +330,16 @@
 								</div>
 								<div class="block-diagram__col">
 									<p class="block-diagram__description description_big">Выручка ОТЛК ЕРА за 2020–2022 годы, млн руб</p>
-									<div class="block-diagram__video">
-										<picture class="picture">
-											<source type="image/webp" srcset="assets/images/video.webp"><img class="picture__img" src="assets/images/video.png">
-										</picture>
-									</div>
+									<div class="block-diagram__video"><video muted id="video-play">
+											<source src="./assets/videos/pribil.mp4" type="video/mp4">
+											<source src="./assets/videos/pribil.webm" type="video/webm">
+										</video></div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-				<section class="preservation-sales" id="preservation-sales">
+				<section class="preservation-sales" data-aos="fade-up" id="preservation-sales">
 					<div class="container-content">
 						<div class="preservation-sales__inner">
 							<h3 class="preservation-sales__title">Себестоимость продаж</h3>
@@ -362,7 +360,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preservation-structure mt-section">
+				<section class="preservation-structure mt-section" data-aos="fade-up">
 					<div class="container-content">
 						<div class="preservation-structure__inner">
 							<p class="preservation-structure__descrition description_big">Структура себестоимости продаж в 2022 году, %</p>
@@ -388,7 +386,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preservation-profit block-diagram mt-section" id="preservation-diagram">
+				<section class="preservation-profit block-diagram mt-section" data-aos="fade-up" id="preservation-diagram">
 					<div class="container-content">
 						<div class="block-diagram__inner">
 							<div class="block-diagram__row">
@@ -396,10 +394,10 @@
 							</div>
 							<div class="block-diagram__row">
 								<div class="block-diagram__col">
-									<div class="item">
+									<div class="item item_size-4">
 										<div class="item__row">
 											<div class="item__col">
-												<p class="item__number">7 812</p>
+												<p class="item__number" data-countup="7812"></p>
 											</div>
 											<div class="item__col">
 												<p class="item__grey">млн руб</p>
@@ -413,17 +411,16 @@
 								</div>
 								<div class="block-diagram__col">
 									<p class="block-diagram__description description_big">Валовая прибыль ОТЛК ЕРА за 2020–2022 годы, с указанием рентабельности, млн руб</p>
-									<div class="block-diagram__video">
-										<picture class="picture">
-											<source type="image/webp" srcset="assets/images/video.webp"><img class="picture__img" src="assets/images/video.png">
-										</picture>
-									</div>
+									<div class="block-diagram__video"><video muted id="video-play">
+											<source src="./assets/videos/pribil.mp4" type="video/mp4">
+											<source src="./assets/videos/pribil.webm" type="video/webm">
+										</video></div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-				<section class="preservation-expenses" id="preservation-expenses">
+				<section class="preservation-expenses" data-aos="fade-up" id="preservation-expenses">
 					<div class="container-content">
 						<div class="preservation-expenses__inner">
 							<h2 class="preservation-expenses__title">Управленческие расходы</h2>
@@ -431,7 +428,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preservation-statistics">
+				<section class="preservation-statistics" data-aos="fade-up">
 					<div class="container-content">
 						<div class="preservation-statistics__inner">
 							<p class="preservation-structure__descrition description_big">Структура управленческих расходов в 2022 году</p>
@@ -448,7 +445,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preview custom-id" id="profit-sales">
+				<section class="preview custom-id" data-aos="fade-up" id="profit-sales">
 					<div class="preview__container">
 						<div class="preview__inner">
 							<div class="preview__line"></div>
@@ -480,16 +477,16 @@
 						</div>
 					</div>
 				</section>
-				<section class="block-diagram mt-section profit">
+				<section class="block-diagram mt-section profit" data-aos="fade-up">
 					<div class="container-content">
 						<div class="block-diagram__inner">
 							<div class="block-diagram__row"></div>
 							<div class="block-diagram__row">
 								<div class="block-diagram__col">
-									<div class="item">
+									<div class="item item_size-4">
 										<div class="item__row">
 											<div class="item__col">
-												<p class="item__number">6 461</p>
+												<p class="item__number" data-countup="6461"></p>
 											</div>
 											<div class="item__col">
 												<p class="item__grey">млн руб</p>
@@ -513,7 +510,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="block-diagram ebitda" id="profit-ebitda">
+				<section class="block-diagram ebitda" data-aos="fade-up" id="profit-ebitda">
 					<div class="container-content">
 						<div class="block-diagram__inner">
 							<div class="block-diagram__row">
@@ -521,10 +518,10 @@
 							</div>
 							<div class="block-diagram__row">
 								<div class="block-diagram__col">
-									<div class="item">
+									<div class="item item_size-4">
 										<div class="item__row">
 											<div class="item__col">
-												<p class="item__number">6 123</p>
+												<p class="item__number" data-countup="6123"></p>
 											</div>
 											<div class="item__col">
 												<p class="item__grey">млн руб</p>
@@ -548,7 +545,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="block-diagram profit-net" id="profit-clean">
+				<section class="block-diagram profit-net" data-aos="fade-up" id="profit-clean">
 					<div class="container-content">
 						<div class="block-diagram__inner">
 							<div class="block-diagram__row">
@@ -556,10 +553,10 @@
 							</div>
 							<div class="block-diagram__row">
 								<div class="block-diagram__col">
-									<div class="item">
+									<div class="item item_size-4">
 										<div class="item__row">
 											<div class="item__col">
-												<p class="item__number">4 815</p>
+												<p class="item__number" data-countup="4815"></p>
 											</div>
 											<div class="item__col">
 												<p class="item__grey">млн руб</p>
@@ -582,7 +579,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="profit-reporting" id="profit-reporting">
+				<section class="profit-reporting" data-aos="fade-up" id="profit-reporting">
 					<div class="container-content">
 						<div class="profit-reporting__inner">
 							<h2 class="profit-reporting__title">Финансовая отчетность по МСФО</h2>
@@ -593,13 +590,13 @@
 								</div>
 								<div class="profit-reporting__column">
 									<div class="row">
-										<div class="item">
+										<div class="item item_size-5">
 											<div class="item__row">
 												<h6 class="item__title">Доходы</h6>
 											</div>
 											<div class="item__row">
 												<div class="item__col">
-													<p class="item__number">55 375</p>
+													<p class="item__number" data-countup="55375"></p>
 												</div>
 												<div class="item__col">
 													<p class="item__grey">млн руб</p>
@@ -614,13 +611,13 @@
 												<p class="item__subtext">Доходы ОТЛК&nbsp;ЕРА по итогам 2022 года уменьшились на 15% к уровню 2021 года до 55 375 млн руб, или на 9 470 млн руб</p>
 											</div>
 										</div>
-										<div class="item">
+										<div class="item item_size-4">
 											<div class="item__row">
 												<h6 class="item__title">Валовая прибыль</h6>
 											</div>
 											<div class="item__row">
 												<div class="item__col">
-													<p class="item__number">7 682</p>
+													<p class="item__number" data-countup="7682"></p>
 												</div>
 												<div class="item__col">
 													<p class="item__grey">млн руб</p>
@@ -635,13 +632,13 @@
 												<p class="item__subtext">Валовая прибыль компании составила 7 682 млн руб, что на 11%, или 970 млн руб, ниже показателя 2021 года</p>
 											</div>
 										</div>
-										<div class="item">
+										<div class="item item_size-4">
 											<div class="item__row">
 												<h6 class="item__title">Операционная прибыль</h6>
 											</div>
 											<div class="item__row">
 												<div class="item__col">
-													<p class="item__number">6 327</p>
+													<p class="item__number" data-countup="6327"></p>
 												</div>
 												<div class="item__col">
 													<p class="item__grey">млн руб</p>
@@ -656,13 +653,13 @@
 												<p class="item__subtext">Операционная прибыль составила 6 327 млн руб, что на 6%, или 407 млн руб, ниже аналогичного показателя 2021 года</p>
 											</div>
 										</div>
-										<div class="item">
+										<div class="item item_size-4">
 											<div class="item__row">
 												<h6 class="item__title">Чистая прибыль</h6>
 											</div>
 											<div class="item__row">
 												<div class="item__col">
-													<p class="item__number">4 761</p>
+													<p class="item__number" data-countup="4761"></p>
 												</div>
 												<div class="item__col">
 													<p class="item__grey">млн руб</p>
@@ -679,13 +676,13 @@
 										</div>
 									</div>
 									<div class="profit-reporting__row_bottom">
-										<div class="item">
+										<div class="item item_size-4">
 											<div class="item__row">
 												<h6 class="item__title">Чистый долг</h6>
 											</div>
 											<div class="item__row">
 												<div class="item__col">
-													<p class="item__number">2 742</p>
+													<p class="item__number" data-countup="2742"></p>
 												</div>
 												<div class="item__col">
 													<p class="item__grey">млн руб</p>
@@ -704,7 +701,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="preview custom-id" id="preview-care">
+				<section class="preview custom-id" data-aos="fade-up" id="preview-care">
 					<div class="preview__container">
 						<div class="preview__inner">
 							<div class="preview__line"></div>
@@ -740,14 +737,14 @@
 						</div>
 					</div>
 				</section>
-				<section class="case">
+				<section class="case" data-aos="fade-up">
 					<div class="container-content">
 						<div class="case__inner">
 							<p class="case__text text_big">В 2022 году представители Общества регулярно участвовали в деятельности рабочих органов и групп на площадках Минтранса,и Минфина, ФТС и других федеральных органов исполнительной власти России, Евразийской экономической комиссии, а также на площадках бизнес-объединений — Российского союза промышленников и предпринимателей, ТПП России, Евразийского союза участников железнодорожных грузовых перевозок, Ассоциации «Цифровой транспорт и логистика», Ассоциации национальных экспедиторов Республики Казахстан, Координационного Совета по Трансъевразийским перевозкам, ОСЖД.</p>
 						</div>
 					</div>
 				</section>
-				<section class="case-direction mt-section">
+				<section class="case-direction mt-section" data-aos="fade-up">
 					<div class="container-content">
 						<div class="case-direction__inner">
 							<p class="case-direction__description description_big">Это позволило обеспечить реализацию и продвижение в 2022 году интересов ОТЛК&nbsp;ЕРА<br class="br" />&nbsp; в нескольких важных направлениях:</p>
@@ -793,7 +790,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="next">
+				<section class="next" data-aos="fade-up">
 					<div class="container">
 						<div class="next__inner">
 							<p class="next__text">Следующий раздел</p>
@@ -806,9 +803,8 @@
 										<stop offset="0.598958" stop-color="#B6EBC9" stop-opacity="0"></stop>
 									</lineargradient>
 								</defs>
-							</svg><a class="button" href="#"><svg class="button-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M6.25 17.5L13.75 10L6.25 2.5" stroke="white" stroke-width="1.5"></path>
-								</svg></a>
+							</svg>
+							<div class="button"><a class="button__item" href="#"><span class="button__span"><span class="button__hover"><svg class="button__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.25 17.5L13.75 10L6.25 2.5" stroke="white" stroke-width="1.5"></path></svg></span></span></a></div>
 						</div>
 					</div>
 				</section>

@@ -5,13 +5,12 @@
 		<meta charset="utf-8">
 		<title>test-html</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-		<script defer="defer" src="assets/vendor.js"></script>
 		<script defer="defer" src="assets/app.js"></script>
-		<link href="styles.css" rel="stylesheet">
+		<link href="461.css" rel="stylesheet">
 		<link href="app.css" rel="stylesheet">
 	</head>
 
-	<body class="body">
+	<body class="body body--notransition">
 		<div class="wrapper">
 			<main class="main">
 				<section class="applications">
@@ -136,7 +135,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="next">
+				<section class="next" data-aos="fade-up">
 					<div class="container">
 						<div class="next__inner">
 							<p class="next__text">Следующий раздел</p>
@@ -149,9 +148,8 @@
 										<stop offset="0.598958" stop-color="#B6EBC9" stop-opacity="0"></stop>
 									</lineargradient>
 								</defs>
-							</svg><a class="button" href="#"><svg class="button-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M6.25 17.5L13.75 10L6.25 2.5" stroke="white" stroke-width="1.5"></path>
-								</svg></a>
+							</svg>
+							<div class="button"><a class="button__item" href="#"><span class="button__span"><span class="button__hover"><svg class="button__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.25 17.5L13.75 10L6.25 2.5" stroke="white" stroke-width="1.5"></path></svg></span></span></a></div>
 						</div>
 					</div>
 				</section>
