@@ -10,7 +10,7 @@
 		<link href="app.css" rel="stylesheet">
 	</head>
 
-	<body class="body body--notransition">
+	<body class="body body--notransition" style="opacity:0;">
 		<div class="wrapper">
 			<main class="main">
 				<div class="preloader">
@@ -606,15 +606,11 @@
 				<section class="report-hero custom-main">
 					<div class="report-hero__row main-page">
 						<div class="report-hero__col main-left">
-							<div class="report-hero__main-logo"><svg width="367" height="504" viewbox="0 0 367 504" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path opacity="0.7" d="M0 157.207L367 0V1425H0V157.207Z" fill="url(#paint0_linear_1701_6835)"></path>
-									<defs>
-										<lineargradient id="paint0_linear_1701_6835" x1="183.5" y1="0" x2="183.5" y2="1425" gradientunits="userSpaceOnUse">
-											<stop stop-color="#BEF0D7"></stop>
-											<stop offset="0.354656" stop-color="#B6EBC9" stop-opacity="0"></stop>
-										</lineargradient>
-									</defs>
-								</svg></div>
+							<div class="report-hero__main-bg">
+								<picture class="picture">
+									<source type="image/webp" srcset="assets/images/left-col-main.webp"><img class="picture__img" src="assets/images/left-col-main.png">
+								</picture>
+							</div>
 							<div class="report-hero__main-title">Человек <span>как главная ценность</span></div>
 							<div class="report-hero__main-bot">
 								<div class="report-hero__main-text">Годовой отчет</div>
