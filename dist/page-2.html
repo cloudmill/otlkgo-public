@@ -1,3 +1,6 @@
+<div class="number-countup__box">
+	<div class="number-countup__percent"></div>
+</div>
 <!doctype html>
 <html lang="ru">
 
@@ -151,7 +154,7 @@
 						<div class="header-title">Человек как <span class="header-title__green">главная ценность</span></div>
 						<div class="header-text">
 							<div class="header-text__top">годовой отчет 2022</div>
-							<div class="header-text__bot">стратегический отчет</div>
+							<div class="header-text__bot">0</div>
 						</div>
 					</div>
 					<div class="header-col">
@@ -185,7 +188,7 @@
 					</div>
 				</div>
 				<div class="header-search" data-search-container="">
-					<form class="header-search__form header-form"><input class="header-form__input" placeholder="Поиск по Годовому отчету"><button class="header-form__button" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+					<form class="header-search__form header-form"><input class="header-form__input" placeholder="Поиск по Годовому отчету" data-search-input><button class="header-form__button" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
 								<path d="M9.14898 16.5279C13.224 16.5279 16.5275 13.2245 16.5275 9.14947C16.5275 5.07445 13.224 1.771 9.14898 1.771C5.07396 1.771 1.77051 5.07445 1.77051 9.14947C1.77051 13.2245 5.07396 16.5279 9.14898 16.5279Z" stroke="#181D1D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
 								<path d="M18.2639 18.2639L16.5278 16.5278" stroke="#181D1D" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round"></path>
 							</svg></button></form>
@@ -271,18 +274,15 @@
 								<div class="macroeconomics-text">Однако в конце года можно было наблюдать ряд позитивных событий. Например, в декабре правительство Китая приняло решение уйти от практики «нулевой терпимости» к COVID.<br>Оно может стать важнейшим катализатором для роста мировой экономики в 2023 году, так как Китай является не только крупнейшим производителем и экспортером товаров различного передела, но также и потребителем. Высвобождение сбережений китайских домохозяйств, накопленных за время пандемии, может привести к росту спроса на различную продукцию, в том числе производства Европы. В связи с этим экономический рост Европы и многих других стран будет прямо зависеть от происходящего в Китае.</div>
 								<div class="macroeconomics-subrow">
 									<div class="macroeconomics-subcol green">
-										<div class="macroeconomics-subcol__top">
-											<div class="macroeconomics-subcol__num" data-countup="3,1" data-countup-prefix></div>
-											<div class="macroeconomics-subcol__text">к мировому ВВП</div>
+										<div class="macroeconomics-subcol__top"><span class="macroeconomics-subcol__num" data-countup="3"></span><span class="macroeconomics-subcol__num">,</span><span class="macroeconomics-subcol__num" data-countup="1" data-countup-suffix="%"></span>
+											<div class="macroeconomics-subcol__text number-animate-3 number-animate mg-left">к мировому ВВП</div>
 										</div>
 										<div class="macroeconomics-subcol_bot">
 											<div class="macroeconomics-subcol__text-grey">Средняя оценка по итогам 2022 года</div>
 										</div>
 									</div>
 									<div class="macroeconomics-subcol light-green">
-										<div class="macroeconomics-subcol__top">
-											<div class="macroeconomics-subcol__num light" data-countup="2,1" data-countup-prefix></div>
-										</div>
+										<div class="macroeconomics-subcol__top"><span class="macroeconomics-subcol__num light" data-countup="2"></span><span class="macroeconomics-subcol__num light">,</span><span class="macroeconomics-subcol__num light" data-countup="1" data-countup-suffix="%"></span></div>
 										<div class="macroeconomics-subcol_bot">
 											<div class="macroeconomics-subcol__text-grey">Прогноз роста мирового ВВП на 2023 год</div>
 										</div>
@@ -329,26 +329,35 @@
 									</picture>
 								</div>
 								<div class="macroeconomics-grafics__col-links chinese">
-									<div class="macroeconomics-grafics__col-text">Источники: <span class="macroeconomics-grafics__col-list"><a class="macroeconomics-grafics__col-link" href="https://www.reuters.com/" target="blank">Reuters,</a><a class="macroeconomics-grafics__col-link" href="https://www.worldbank.org/en/home" target="blank">World Bank,</a><a class="macroeconomics-grafics__col-link" href="https://www.imf.org/en/Home" target="blank">IMF,</a><a class="macroeconomics-grafics__col-link" href="https://www.credit-suisse.com/ru/ru.html" target="blank">Credit Suisse,</a><a class="macroeconomics-grafics__col-link" href="https://www.goldmansachs.com/" target="blank">Goldman Sachs,</a><a class="macroeconomics-grafics__col-link" href="https://www.fitchratings.com/" target="blank">Fitch Ratings,<br class="desktop"></a><a class="macroeconomics-grafics__col-link" href="https://www.un.org/" target="blank">UN World Economic Situation and Prospects Report</a></span></div>
+									<div class="macroeconomics-grafics__col-text chinese">Источники: <span class="macroeconomics-grafics__col-list"><a class="macroeconomics-grafics__col-link" href="https://www.reuters.com/" target="blank">Reuters,</a><a class="macroeconomics-grafics__col-link" href="https://www.worldbank.org/en/home" target="blank">World Bank,</a><a class="macroeconomics-grafics__col-link" href="https://www.imf.org/en/Home" target="blank">IMF,</a><a class="macroeconomics-grafics__col-link" href="https://www.credit-suisse.com/ru/ru.html" target="blank">Credit Suisse,</a><a class="macroeconomics-grafics__col-link" href="https://www.goldmansachs.com/" target="blank">Goldman Sachs,</a><a class="macroeconomics-grafics__col-link" href="https://www.fitchratings.com/" target="blank">Fitch Ratings,<br class="desktop"></a><a class="macroeconomics-grafics__col-link" href="https://www.un.org/" target="blank">UN World Economic Situation and Prospects Report</a></span></div>
 								</div>
 							</div>
 						</div>
 						<div class="chinese-economy__quarter" data-aos="fade-up">
 							<h4 class="chinese-economy__quarter-title">Поквартальная динамика ВВП Китая, 2020–2022 гг.</h4>
-							<div class="chinese-economy__quarter-container"></div>
-							<div class="chinese-economy__quarter-vector">
-								<picture class="picture">
-									<source type="image/webp" srcset="assets/images/quarter-vector.webp"><img class="picture__img" src="assets/images/quarter-vector.png">
-								</picture>
+							<div class="macroeconomics-grafics__col-links quarter desktop">
+								<div class="macroeconomics-grafics__col-text">Источники: <span class="macroeconomics-grafics__col-list"><a class="macroeconomics-grafics__col-link" href="http://www.stats.gov.cn/" target="blank">Национальное статистическое бюро Китая</a></span></div>
 							</div>
-							<div class="macroeconomics-grafics__col-links quarter">
+							<div class="chinese-economy__quarter-container">
+								<div class="chinese-economy__quarter-vector desktop">
+									<picture class="picture">
+										<source type="image/webp" srcset="assets/images/quarter-vector.webp"><img class="picture__img" src="assets/images/quarter-vector.png">
+									</picture>
+								</div>
+								<div class="chinese-economy__quarter-vector mobile">
+									<picture class="picture">
+										<source type="image/webp" srcset="assets/images/quarter-vector-mobile.webp"><img class="picture__img" src="assets/images/quarter-vector-mobile.png">
+									</picture>
+								</div>
+							</div>
+							<div class="macroeconomics-grafics__col-links quarter mobile">
 								<div class="macroeconomics-grafics__col-text">Источники: <span class="macroeconomics-grafics__col-list"><a class="macroeconomics-grafics__col-link" href="http://www.stats.gov.cn/" target="blank">Национальное статистическое бюро Китая</a></span></div>
 							</div>
 							<div class="chinese-economy__quarter-row">
 								<div class="chinese-economy__quarter-col">
 									<div class="ge-card green upper">
 										<div class="ge-card__top">
-											<div class="ge-card__num green" data-countup="27" data-countup-mines data-countup-suffix></div>
+											<div class="ge-card__num green" data-countup="27" data-countup-prefix="-" data-countup-suffix="%"></div>
 										</div>
 										<div class="ge-card__bot">
 											<div class="ge-card__text-grey">Падение спроса на недвижимость в Китае по итогам 2022 года</div>
@@ -356,8 +365,8 @@
 									</div>
 									<div class="ge-card light-green">
 										<div class="ge-card__top">
-											<div class="ge-card__num light" data-countup="25" data-countup-suffix></div>
-											<div class="ge-card__text">ВВП страны</div>
+											<div class="ge-card__num light" data-countup="25" data-countup-suffix="%"></div>
+											<div class="ge-card__text number-animate-25 number-animate mg-left">ВВП страны</div>
 										</div>
 										<div class="ge-card__bot">
 											<div class="ge-card__text-grey">Приходится на сектор недвижимости</div>
@@ -547,9 +556,8 @@
 								<div class="mutal-trade__hero-row">
 									<div class="mutal-trade__hero-subcol">
 										<div class="ge-card light-green">
-											<div class="ge-card__top">
-												<div class="ge-card__num light" data-countup="851,9"></div>
-												<div class="ge-card__text">млрд евро</div>
+											<div class="ge-card__top"><span class="ge-card__num light" data-countup="851"></span><span class="ge-card__num light">,</span><span class="ge-card__num light" data-countup="9"></span>
+												<div class="ge-card__text number-animate-851 number-animate mg-left">млрд евро</div>
 											</div>
 											<div class="ge-card__bot">
 												<div class="ge-card__text-grey">Общий объем торговли между партнерами в рамках основных товарных позиций в 2022 году</div>
@@ -559,8 +567,8 @@
 									<div class="mutal-trade__hero-subcol">
 										<div class="ge-card green">
 											<div class="ge-card__top">
-												<div class="ge-card__num green" data-countup="32" data-countup-prefix data-countup-suffix></div>
-												<div class="ge-card__text top">до 624,3<div class="ge-card__text">млрд евро</div>
+												<div class="ge-card__num green" data-countup="32" data-countup-prefix="+" data-countup-suffix="%"></div>
+												<div class="ge-card__text top number-animate-32 number-animate mg-left">до 624,3<div class="ge-card__text">млрд евро</div>
 												</div>
 											</div>
 											<div class="ge-card__bot">
@@ -574,9 +582,8 @@
 						<div class="mutal-trade__subsection" data-aos="fade-up">
 							<div class="mutal-trade__subsection-col" data-aos="fade-up">
 								<div class="ge-card green">
-									<div class="ge-card__top">
-										<div class="ge-card__num green" data-countup="3,2" data-countup-prefix data-countup-suffix></div>
-										<div class="ge-card__text top">до 227,6<div class="ge-card__text">млрд евро</div>
+									<div class="ge-card__top"><span class="ge-card__num green" data-countup="3" data-countup-prefix="+"></span><span class="ge-card__num green">,</span><span class="ge-card__num green" data-countup="2" data-countup-suffix="%"></span>
+										<div class="ge-card__text top number-animate-2 number-animate mg-left">до 227,6<div class="ge-card__text">млрд евро</div>
 										</div>
 									</div>
 									<div class="ge-card__bot">
@@ -663,7 +670,7 @@
 						</div>
 						<div class="mutal-trade__shares3" data-aos="fade-up">
 							<div class="mutal-trade__shares3-top">
-								<div class="mutal-trade__shares3-title">Доли товаров в экспорте Китай-Европа, 2022 г.</div>
+								<div class="mutal-trade__shares3-title">Доли товаров в экспорте Европа-Китай, 2022 г.</div>
 								<div class="mutal-trade__shares3-copy">
 									<div class="macroeconomics-grafics__col-links first">
 										<div class="macroeconomics-grafics__col-text big-12">Источники: <span class="macroeconomics-grafics__col-list"><a class="macroeconomics-grafics__col-link big-12" href="https://appsso.eurostat.ec.europa.eu/" target="blank">Eurostat</a></span></div>
@@ -700,7 +707,7 @@
 							</div>
 						</div>
 						<div class="mutal-trade__export2" data-aos="fade-up">
-							<div class="mutal-trade__export2-title">Экспорт Китай-Европа посредством основных видов транспорта, 2021–2022 гг., % от стоимостной торговли</div>
+							<div class="mutal-trade__export2-title">Экспорт Европа-Китай посредством основных видов транспорта, 2021–2022 гг., % от стоимостной торговли</div>
 							<div class="mutal-trade__export2-vector custom-desktop">
 								<picture class="picture">
 									<source type="image/webp" srcset="assets/images/mutal-trade-export2.webp"><img class="picture__img" src="assets/images/mutal-trade-export2.png">
@@ -1040,7 +1047,7 @@
 							</div>
 							<div class="transit-dynamic__row">
 								<div class="transit-dynamic__item">
-									<p class="transit-dynamic__number flex w-suffix-3"><span data-countup="89"></span><span>,</span><span data-countup="3"></span><span class="indicators__suffix">%</span></p>
+									<p class="transit-dynamic__number flex"><span data-countup="89"></span><span>,</span><span data-countup="3" data-countup-suffix="%"></span></p>
 									<p class="transit-dynamic__sub">Доля компании за 2022 году на конкурентных МТК&nbsp;«Восток-Запад» маршрутах </p>
 								</div>
 								<div class="col">

@@ -1,3 +1,6 @@
+<div class="number-countup__box">
+	<div class="number-countup__percent"></div>
+</div>
 <!doctype html>
 <html lang="ru">
 
@@ -151,7 +154,7 @@
 						<div class="header-title">Человек как <span class="header-title__green">главная ценность</span></div>
 						<div class="header-text">
 							<div class="header-text__top">годовой отчет 2022</div>
-							<div class="header-text__bot">стратегический отчет</div>
+							<div class="header-text__bot">0</div>
 						</div>
 					</div>
 					<div class="header-col">
@@ -185,7 +188,7 @@
 					</div>
 				</div>
 				<div class="header-search" data-search-container="">
-					<form class="header-search__form header-form"><input class="header-form__input" placeholder="Поиск по Годовому отчету"><button class="header-form__button" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+					<form class="header-search__form header-form"><input class="header-form__input" placeholder="Поиск по Годовому отчету" data-search-input><button class="header-form__button" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
 								<path d="M9.14898 16.5279C13.224 16.5279 16.5275 13.2245 16.5275 9.14947C16.5275 5.07445 13.224 1.771 9.14898 1.771C5.07396 1.771 1.77051 5.07445 1.77051 9.14947C1.77051 13.2245 5.07396 16.5279 9.14898 16.5279Z" stroke="#181D1D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
 								<path d="M18.2639 18.2639L16.5278 16.5278" stroke="#181D1D" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round"></path>
 							</svg></button></form>
@@ -230,7 +233,7 @@
 				<section class="human-capital" id="human-capital" data-aos="fade-up">
 					<div class="container-content" data-aos="fade-up">
 						<h2 class="human-capital__title">Человеческий капитал</h2>
-						<h3 class="human-capital__subtitle">Сколько нас?</h3>
+						<h3 class="human-capital__subtitle w-100">Сколько нас?</h3>
 						<div class="human-capital__hero-row" data-aos="fade-up">
 							<div class="human-capital__hero-col" data-aos="fade-up">
 								<div class="human-capital__hero-text bold">К концу 2022 года в ОТЛК&nbsp;ЕРА фактически работали 160 человек (штатная численность — 170). Из них 69 человек занимают руководящие должности.<br>Также у нас 88 специалистов и 6 служащих.</div>
@@ -240,7 +243,7 @@
 								<div class="human-capital__hero-text text">Все это повлекло за собой изменения в организационной структуре компании и штатном расписании для того, чтобы и дальше развивать клиентский сервис, поддерживать высокое качество услуг, управлять собственным парком фитинговых платформ, проводить мониторинг и комплексный анализ рыночной конъюнктуры.</div>
 								<div class="ge-card green human">
 									<div class="ge-card__top">
-										<div class="ge-card__num green">+12%</div>
+										<div class="ge-card__num green" data-countup="12" data-countup-prefix="+" data-countup-suffix="%"></div>
 									</div>
 									<div class="ge-card__bot">
 										<div class="ge-card__text-grey">Рост штата компании в 2022 году</div>
@@ -271,7 +274,7 @@
 										<div class="item">
 											<div class="item__row">
 												<div class="item__col">
-													<p class="item__number w-suffix-3 flex"><span data-countup="5"></span><span>,</span><span data-countup="88"></span><span class="indicators__suffix">%</span></p>
+													<p class="item__number flex"><span data-countup="5"></span><span>,</span><span data-countup="88" data-countup-suffix="%"></span></p>
 												</div>
 												<div class="item__col">
 													<p class="item__grey"></p>
@@ -309,9 +312,9 @@
 								</picture>
 							</div>
 							<div class="ge-card green desktop" data-aos="fade-up">
-								<div class="ge-card__top">
-									<div class="ge-card__num green">170</div>
-									<div class="ge-card__text">единиц</div>
+								<div class="ge-card__top gap-8">
+									<div class="ge-card__num green" data-countup="170"></div>
+									<div class="ge-card__text number-animate-170 number-animate">единиц</div>
 								</div>
 								<div class="ge-card__bot">
 									<div class="ge-card__text-grey custom-cuchurina">Штатная численность</div>
@@ -319,9 +322,9 @@
 							</div>
 						</div>
 						<div class="ge-card green mobile">
-							<div class="ge-card__top">
-								<div class="ge-card__num green">170</div>
-								<div class="ge-card__text">единиц</div>
+							<div class="ge-card__top gap-8">
+								<div class="ge-card__num green" data-countup="170"></div>
+								<div class="ge-card__text number-animate-170 number-animate">единиц</div>
 							</div>
 							<div class="ge-card__bot">
 								<div class="ge-card__text-grey custom-cuchurina">Штатная численность</div>
@@ -765,10 +768,10 @@
 								<div class="corporate-responsibility__care-subtitle">Люди, работающие в ОТЛК&nbsp;ЕРА — основное конкурентное преимущество компании, а их благополучие — часть корпоративной культуры well-being. ОТЛК&nbsp;ЕРА стремится создавать все условия для соблюдения интересов персонала, поэтому для компании важны:</div>
 							</div>
 							<div class="corporate-responsibility__care-col" data-aos="fade-up">
-								<div class="corporate-responsibility__care-subtext">Процессы подбора, адаптации и развития персонала в компании регламентируют</div>
+								<div class="corporate-responsibility__care-subtext">Процессы подбора, адаптации и развития персонала в&nbsp;компании регламентируют</div>
 								<div class="corporate-responsibility__care-list">
 									<div class="recruitment-processes__hr-mark">Профессиональное и личностное развитие каждого сотрудника</div>
-									<div class="recruitment-processes__hr-mark">Создание благоприятного морально-психологического климата и нормальных условий труда на рабочих местах</div>
+									<div class="recruitment-processes__hr-mark">Создание благоприятного морально-психологического климата и&nbsp;нормальных условий труда на рабочих местах</div>
 									<div class="recruitment-processes__hr-mark">Справедливая оценка вклада и инициативности сотрудников</div>
 									<div class="recruitment-processes__hr-mark">Здоровье и благополучие сотрудников и членов их семей</div>
 								</div>
@@ -782,8 +785,8 @@
 					<div class="corporate-responsibility__events" id="corporate-responsibility-events" data-aos="fade-up">
 						<h2 class="corporate-responsibility__events-title">Корпоративные мероприятия</h2>
 						<div class="corporate-responsibility__events-row">
-							<div class="corporate-responsibility__events-subtitle">Мы рассматриваем проведение мероприятий как особый способ внедрения корпоративных ценностей, важную составляющую корпоративной культуры и инструмент построения эффективной команды.</div>
-							<div class="corporate-responsibility__events-text text">В мероприятии ценности не представляются в виде абстрактных схем, а непосредственно переживаются сотрудниками как часть их реальной жизни. В компании традиционно отмечают 23 февраля, 8 марта, день образования компании, профессиональный праздник День железнодорожника, Новый год и др.</div>
+							<div class="corporate-responsibility__events-subtitle">Мы рассматриваем проведение мероприятий как особый способ внедрения корпоративных ценностей, важную составляющую корпоративной культуры и&nbsp;инструмент построения эффективной команды.</div>
+							<div class="corporate-responsibility__events-text text">В мероприятии ценности не представляются в виде абстрактных схем, а&nbsp;непосредственно переживаются сотрудниками как часть их реальной жизни. В компании традиционно отмечают 23 февраля, 8 марта, день образования компании, профессиональный праздник День железнодорожника, Новый год и др.</div>
 						</div>
 					</div>
 				</div>
@@ -798,7 +801,7 @@
 								<div class="corporate-responsibility__health-text">Для бесперебойной и эффективной работы персонала организован удаленный доступ к корпоративным ресурсам, налажено обеспечение персональными компьютерами. Принятые в течение 2022 года сотрудники переводятся на удаленную работу после прохождения испытательного срока.</div>
 								<div class="ge-card light-green">
 									<div class="ge-card__top">
-										<div class="ge-card__num light">78%</div>
+										<div class="ge-card__num light" data-countup="78" data-countup-suffix="%"></div>
 									</div>
 									<div class="ge-card__bot">
 										<div class="ge-card__text-grey">Сотрудников могут работать удаленно</div>
@@ -823,9 +826,9 @@
 						<div class="personal-subsection__row second" data-aos="fade-up">
 							<div class="personal-subsection__col left" data-aos="fade-up">
 								<div class="ge-card light-green">
-									<div class="ge-card__top">
-										<div class="ge-card__num light">8</div>
-										<div class="ge-card__text">сотрудников</div>
+									<div class="ge-card__top gap-8">
+										<div class="ge-card__num light" data-countup="8"></div>
+										<div class="ge-card__text number-animate-8 number-animate">сотрудников</div>
 									</div>
 									<div class="ge-card__bot">
 										<div class="ge-card__text-grey short">В 2022 году получили санаторно-курортное лечение</div>
@@ -846,18 +849,18 @@
 								<div class="recruitment-processes__hr-mark">Лечение впервые диагностированных критических заболеваний</div>
 								<div class="personal-subsection__subrow">
 									<div class="ge-card light-green">
-										<div class="ge-card__top">
-											<div class="ge-card__num light">60 000</div>
-											<div class="ge-card__text">руб<br>в год</div>
+										<div class="ge-card__top gap-8">
+											<div class="ge-card__num light" data-countup="60000"></div>
+											<div class="ge-card__text number-animate-60000 number-animate">руб<br>в год</div>
 										</div>
 										<div class="ge-card__bot">
 											<div class="ge-card__text-grey">Сумма компенсации за детский отдых или оздоровление</div>
 										</div>
 									</div>
 									<div class="ge-card light-green">
-										<div class="ge-card__top">
-											<div class="ge-card__num light">3</div>
-											<div class="ge-card__text">сотрудника</div>
+										<div class="ge-card__top gap-8">
+											<div class="ge-card__num light" data-countup="3"></div>
+											<div class="ge-card__text number-animate-3 number-animate">сотрудника</div>
 										</div>
 										<div class="ge-card__bot">
 											<div class="ge-card__text-grey">Воспользовались в 2022 году этой возможностью </div>
@@ -878,9 +881,9 @@
 							</div>
 							<div class="material-help__col" data-aos="fade-up">
 								<div class="ge-card green">
-									<div class="ge-card__top">
-										<div class="ge-card__num green">21</div>
-										<div class="ge-card__text">сотрудник</div>
+									<div class="ge-card__top gap-8">
+										<div class="ge-card__num green" data-countup="21"></div>
+										<div class="ge-card__text number-animate-21 number-animate">сотрудник</div>
 									</div>
 									<div class="ge-card__bot">
 										<div class="ge-card__text-grey">Получил материальную помощь в 2022 году </div>
@@ -890,9 +893,9 @@
 							</div>
 							<div class="material-help__col" data-aos="fade-up">
 								<div class="ge-card green">
-									<div class="ge-card__top">
-										<div class="ge-card__num green">8</div>
-										<div class="ge-card__text">сотрудник</div>
+									<div class="ge-card__top gap-8">
+										<div class="ge-card__num green" data-countup="8"></div>
+										<div class="ge-card__text number-animate-8 number-animate">сотрудников</div>
 									</div>
 									<div class="ge-card__bot">
 										<div class="ge-card__text-grey">Получили различные награды</div>
@@ -912,9 +915,9 @@
 							<div class="education-support__col" data-aos="fade-up">
 								<div class="education-support__subtitle">ОТЛК&nbsp;ЕРА заинтересована<br class="br">в повышении уровня образования<br class="br">и кадрового потенциала<br class="br">в транспортной отрасли.</div>
 								<div class="ge-card green">
-									<div class="ge-card__top">
-										<div class="ge-card__num green">7</div>
-										<div class="ge-card__text">студентов</div>
+									<div class="ge-card__top gap-8">
+										<div class="ge-card__num green" data-countup="7"></div>
+										<div class="ge-card__text number-animate-7 number-animate">студентов</div>
 									</div>
 									<div class="ge-card__bot">
 										<div class="ge-card__text-grey">Прошли практику в компании в 2022 году</div>
@@ -985,7 +988,7 @@
 							<div class="education-development__subsection-col">
 								<div class="ge-card green">
 									<div class="ge-card__top">
-										<div class="ge-card__num green">>1200</div>
+										<div class="ge-card__num green" data-countup="1200" data-countup-prefix="&gt;"></div>
 									</div>
 									<div class="ge-card__bot">
 										<div class="ge-card__text-grey long">Книг скачали сотрудники бесплатно (эквивалентно  3010 академ.часам обучения)</div>
@@ -1081,7 +1084,7 @@
 										<li class="security__item"><svg class="security-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 											</svg>
-											<p class="text security__text">Постановлением правительства РФ от 24.12.2021 № 2464 «О порядке обучения по охране труда и проверки знания требований охраны труда» (вместе с правилами обучения по охране труда и проверки знания требований охраны труда</p>
+											<p class="text security__text">Постановлением правительства РФ от 24.12.2021 № 2464 «О порядке обучения по охране труда и проверки знания требований охраны труда» (вместе с правилами обучения по охране труда и проверки знания требований охраны труда)</p>
 										</li>
 										<li class="security__item"><svg class="security-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
@@ -1169,7 +1172,7 @@
 									<p class="security-work__description description">В августе 2022 года мы провели специальную оценку условий труда (СОУТ), результаты которой не выявили потенциально вредных (или) опасных производственных факторов на рабочих местах.</p>
 								</div>
 								<div class="security-work__col">
-									<p class="security-work__text text">Также не было рекомендаций на проведение периодических медицинских осмотров (обязательный медицинский осмотр в соответствии с Трудовым кодексом РФ проводится только при приеме на работу).</p>
+									<p class="security-work__text text">Также не было рекомендаций по проведению периодических медицинских осмотров (обязательный медицинский осмотр в соответствии с Трудовым кодексом РФ проводится только при приеме на работу).</p>
 								</div>
 							</div>
 						</div>
@@ -1199,7 +1202,7 @@
 									<p class="security-fire__description description">Мы проводим ежегодный инструктаж сотрудников компании по пожарной и электробезопасности.</p>
 								</div>
 								<div class="security-fire__col">
-									<p class="security-fire__text text">Что касается пожарной безопасности, все помещения компании обеспечены огнетушителями и взяты под охрану автоматической системой пожарной сигнализации. Помещение серверной оборудовано автоматической системой пожаротушения. Системы обслуживаются подрядной организацией с соответствующей лицензией.</p>
+									<p class="security-fire__text text">Что касается пожарной безопасности, все помещения компании обеспечены огнетушителями и взяты под охрану автоматической системой пожарной сигнализации. Помещение серверной оборудовано автоматической системой пожаротушения. Системы обслуживаются подрядной организацией с соответствующей лицензией.</p><br>
 									<p class="security-fire__text text">Промышленное производство в компании отсутствует, поэтому вопросы промышленной безопасности не рассматриваются.</p>
 								</div>
 							</div>
@@ -1257,14 +1260,14 @@
 					<div class="container-content">
 						<div class="ecology-statistics__inner">
 							<div class="col">
-								<p class="ecology-statistics__text text">Популяризация именно железнодорожного сообщения как наиболее экологичного в грузоперевозках на дальние расстояния – это ключевой шаг в сокращении выбросов парниковых газов транспортным сегментом во всем мире.</p>
+								<p class="ecology-statistics__text text">Популяризация именно железнодорожного сообщения как наиболее экологичного в грузоперевозках на дальние расстояния – это ключевой шаг в&nbsp;сокращении выбросов парниковых газов транспортным сегментом во всем мире.</p>
 								<div class="item">
 									<div class="item__row">
 										<div class="item__col">
 											<p class="item__grey">до</p>
 										</div>
 										<div class="item__col">
-											<p class="item__number w-suffix-2"><span data-countup="20"></span><span class="indicators__suffix">%</span></p>
+											<p class="item__number" data-countup="20" data-countup-suffix="%"></p>
 										</div>
 									</div>
 									<div class="item__row">
@@ -1278,8 +1281,8 @@
 							</div>
 							<div class="ecology-statistics__right">
 								<div class="row">
-									<p class="ecology-statistics__text text">Объем прямых выбросов СО2 (TTW) по результатам деятельности ОТЛК&nbsp;ЕРА рассчитывается исходя из параметров выбросов ключевого базового маршрута Брест — Достык (принято за усредненный показатель) и суммарного объема перевозок по всем маршрутам.</p>
-									<p class="ecology-statistics__text text">На основании параметров маршрута Брест — Достык определяется объем выбросов СО2 на 1 ДФЭ — GПГДФЭ, который умножается на общий объем перевозок в сервисах ОТЛК&nbsp;ЕРА. Эта величина рассчитывается по формуле:</p>
+									<p class="ecology-statistics__text text">Объем прямых выбросов СО<sup class="fz-10">2</sup> (TTW) по результатам деятельности ОТЛК&nbsp;ЕРА рассчитывается исходя из параметров выбросов ключевого базового маршрута Брест — Достык (принято за усредненный показатель) и суммарного объема перевозок по всем маршрутам.</p>
+									<p class="ecology-statistics__text text">На основании параметров маршрута Брест — Достык определяется объем выбросов СО<sup class="fz-10">2</sup> на 1 ДФЭ — GПГДФЭ, который умножается на общий объем перевозок в сервисах ОТЛК&nbsp;ЕРА.<br>Эта величина рассчитывается по формуле:</p>
 								</div>
 								<div class="ecology-statistics__img">
 									<picture class="picture">
@@ -1289,11 +1292,11 @@
 								<div class="ecology-statistics__formulas">
 									<p class="ecology-statistics__formula">Р <sub>ТЭР</sub>&nbsp; — &nbsp; расход ТЭР на 1 км пути (тонн, тыс. куб. м, Гкал или кВт в час)</p>
 									<p class="ecology-statistics__formula">Н<sub>КМ</sub>&nbsp; — &nbsp; полное расстояние маршрута (км)</p>
-									<p class="ecology-statistics__formula">К <sub>СО</sub>&nbsp; — &nbsp; коэффициент выброса СО2 (тонн СО2 / т или тыс. куб. м топлива, тонн СО2/ Гкал тепловой энергии, кг СО2 / кВт в час электроэнергии);</p>
+									<p class="ecology-statistics__formula">К <sub>СО</sub>&nbsp; — &nbsp; коэффициент выброса СО<sup class="fz-8">2</sup> (тонн СО<sup class="fz-8">2</sup> / т или тыс. куб. м топлива, тонн СО<sup class="fz-8">2</sup>/ Гкал тепловой энергии, кг СО<sup class="fz-8">2</sup> / кВт в час электроэнергии);</p>
 									<p class="ecology-statistics__formula">Q <sub>КТК</sub>&nbsp; — &nbsp; количество контейнеров в поезде</p>
 								</div>
 								<div class="row">
-									<p class="ecology-statistics__text text">Для расчета объема прямых и косвенных выбросов СО2 (WTW), генерируемых ОТЛК&nbsp;ЕРА, использовались собственные данные компании для определения прямых выбросов (TTW), а также расчеты и методология портала <a class="ecology-statistics__link" target="_blank" href="https://www.ecotransit.org/en/">EcoTransIT</a> для определения непрямых выбросов (WTT). Для расчета экологического воздействия альтернативных видов транспорта также использовался портал <a class="ecology-statistics__link" target="_blank" href="https://www.ecotransit.org/en/">EcoTransIT</a> , который является признанным источником в вопросах учета и расчетов углеродного следа.</p>
+									<p class="ecology-statistics__text text">Для расчета объема прямых и косвенных выбросов СО<sup class="fz-10">2</sup> (WTW), генерируемых ОТЛК&nbsp;ЕРА, использовались собственные данные компании для определения прямых выбросов (TTW), а также расчеты и методология портала <a class="ecology-statistics__link" target="_blank" href="https://www.ecotransit.org/en/">EcoTransIT</a> для определения непрямых выбросов (WTT). Для расчета экологического воздействия альтернативных видов транспорта также использовался портал <a class="ecology-statistics__link" target="_blank" href="https://www.ecotransit.org/en/">EcoTransIT</a> , который является признанным источником в вопросах учета и расчетов углеродного следа.</p>
 								</div>
 							</div>
 						</div>
@@ -1326,22 +1329,22 @@
 										<li class="ecology-algorithm__item"><svg class="ecology-algorithm-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 											</svg>
-											<p class="text eclology-algorithm__text">Для 44 поездов – 442 998 кг CO2</p>
+											<p class="text eclology-algorithm__text">Для 44 поездов – 442 998 кг CO<sup class="fz-10">2</sup></p>
 										</li>
 										<li class="ecology-algorithm__item"><svg class="ecology-algorithm-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 											</svg>
-											<p class="text eclology-algorithm__text">1 контейнерного судна – 2 115 677 кг CO2</p>
+											<p class="text eclology-algorithm__text">1 контейнерного судна – 2 115 677 кг CO<sup class="fz-10">2</sup></p>
 										</li>
 										<li class="ecology-algorithm__item"><svg class="ecology-algorithm-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 											</svg>
-											<p class="text eclology-algorithm__text">3 318 грузовиков с загрузкой до 26 тонн – 39 423 125 кг CO2</p>
+											<p class="text eclology-algorithm__text">3 318 грузовиков с загрузкой до 26 тонн – 39 423 125 кг CO<sup class="fz-10">2</sup></p>
 										</li>
 										<li class="ecology-algorithm__item"><svg class="ecology-algorithm-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 											</svg>
-											<p class="text eclology-algorithm__text">1 106 грузовых самолетов – 233 864 501 кг CO2</p>
+											<p class="text eclology-algorithm__text">1 106 грузовых самолетов – 233 864 501 кг CO<sup class="fz-10">2</sup></p>
 										</li>
 									</ul>
 								</div>
@@ -1351,22 +1354,22 @@
 										<li class="ecology-algorithm__item"><svg class="ecology-algorithm-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 											</svg>
-											<p class="text eclology-algorithm__text">Для 44 поездов – 19 618 237 кг CO2</p>
+											<p class="text eclology-algorithm__text">Для 44 поездов – 19 618 237 кг CO<sup class="fz-10">2</sup></p>
 										</li>
 										<li class="ecology-algorithm__item"><svg class="ecology-algorithm-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 											</svg>
-											<p class="text eclology-algorithm__text">1 контейнерного судна – 2 318 405 кг CO2</p>
+											<p class="text eclology-algorithm__text">1 контейнерного судна – 2 318 405 кг CO<sup class="fz-10">2</sup></p>
 										</li>
 										<li class="ecology-algorithm__item"><svg class="ecology-algorithm-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 											</svg>
-											<p class="text eclology-algorithm__text">3 318 грузовиков с загрузкой до 26 тонн – 46 590 965 кг CO2</p>
+											<p class="text eclology-algorithm__text">3 318 грузовиков с загрузкой до 26 тонн – 46 590 965 кг CO<sup class="fz-10">2</sup></p>
 										</li>
 										<li class="ecology-algorithm__item"><svg class="ecology-algorithm-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 											</svg>
-											<p class="text eclology-algorithm__text">1 106 грузовых самолетов – 285 847 854 кг CO2</p>
+											<p class="text eclology-algorithm__text">1 106 грузовых самолетов – 285 847 854 кг CO<sup class="fz-10">2</sup></p>
 										</li>
 									</ul>
 								</div>
@@ -1386,7 +1389,7 @@
 									<p class="ecology-dynamic__description description">Устойчивое развитие, а в перспективе и достижение углеродной нейтральности нераздельно связаны со стремлением ОТЛК&nbsp;ЕРА создать конкурентоспособную альтернативу морскому, автомобильному и авиационному грузовому транспорту, которые используются в трансъевразийских перевозках.</p>
 								</div>
 								<div class="col">
-									<p class="eclology-dynamic__text text">Развитие железнодорожного сообщения в грузоперевозках на дальние расстояния — ключевой шаг в сокращении выбросов парниковых газов во всем мире. Согласно онлайн-счетчику, в 2022 году в результате транзитных перевозок ОТЛК&nbsp;ЕРА по направлению Китай — Европа — Китай накопленный объём выбросов составил 27,4 тыс. тонн СО<sup>2</sup>. Если бы аналогичный объем груза доставлялся морем, выбросы достигли бы 130,9 тыс. тонн, автомобильным транспортом —<br class="br">2 439,5 тыс. тонн, авиаперевозками — 14 471s,6 тыс. тонн.</p>
+									<p class="eclology-dynamic__text text">Развитие железнодорожного сообщения в грузоперевозках на дальние расстояния — ключевой шаг в сокращении выбросов парниковых газов во всем мире. Согласно онлайн-счетчику, в 2022 году в результате транзитных перевозок ОТЛК&nbsp;ЕРА по направлению Китай — Европа — Китай накопленный объём выбросов составил 27,4 тыс. тонн СО<sup>2</sup>. Если бы аналогичный объем груза доставлялся морем, выбросы достигли бы 130,9 тыс. тонн, автомобильным транспортом — 2 439,5 тыс. тонн, авиаперевозками — 14 471,6 тыс. тонн.</p>
 									<p class="eclology-dynamic__text text">Если рассматривать суммарный объем прямых выбросов ОТЛК&nbsp;ЕРА и косвенных выбросов, которые не являются следствием деятельности компании, то по итогам 2022 года углеродный след составил 1 214 тыс. тонн СО <sup>2</sup>, а при перевозке аналогичного объема груза авто- и авиатранспортом выбросы достигли бы 2 883,1 тыс. тонн и 17 688,4 тыс. тонн СО<sup>2</sup> соответственно.</p>
 								</div>
 							</div>
@@ -1401,7 +1404,7 @@
 								<div class="col">
 									<div class="ecology-description">
 										<div class="ecology-description__item"><span class="ecology-description__decor ecology-description__decor_1"></span>
-											<p class="ecology-description__text">АО «ОТЛК&nbsp;ЕРА»</p>
+											<p class="ecology-description__text">«ОТЛК&nbsp;ЕРА»</p>
 										</div>
 										<div class="ecology-description__item"><span class="ecology-description__decor ecology-description__decor_2"></span>
 											<p class="ecology-description__text">Морские перевозки</p>
@@ -1434,7 +1437,7 @@
 									<div class="col">
 										<div class="ecology-description">
 											<div class="ecology-description__item"><span class="ecology-description__decor ecology-description__decor_1"></span>
-												<p class="ecology-description__text">АО «ОТЛК&nbsp;ЕРА»</p>
+												<p class="ecology-description__text">«ОТЛК&nbsp;ЕРА»</p>
 											</div>
 											<div class="ecology-description__item"><span class="ecology-description__decor ecology-description__decor_2"></span>
 												<p class="ecology-description__text">Морские перевозки</p>
@@ -1460,7 +1463,7 @@
 								<h6 class="ecology-CO2__subtitle">Межправительственный совет ЕАЭС в августе 2021 года утвердил план первоочередных мероприятий по цифровизации грузовых железнодорожных перевозок.</h6>
 								<div class="row">
 									<div class="col">
-										<p class="ecology-CO2__text text">Это, наряду с подписанием железными дорогами России, Казахстана и Белоруссии декларации о намерениях поддерживать эффективные контейнерные å между Европой и Китаем, дало решающий импульс декарбонизации евразийского железнодорожного коридора.</p>
+										<p class="ecology-CO2__text text">Это, наряду с подписанием железными дорогами России, Казахстана и Белоруссии декларации о намерениях поддерживать эффективные контейнерные перевозки между Европой и Китаем, дало решающий импульс декарбонизации евразийского железнодорожного коридора.</p>
 										<p class="ecology-CO2__text text">Документ признает ключевую роль железнодорожного транспорта для выполнения Целей в области устойчивого развития ООН, в том числе по уменьшению углеродного следа от транспортно-логистической отрасли, повышению энергоэффективности, а также в части развития устойчивой региональной и трансграничной инфраструктуры.</p>
 									</div>
 									<div class="col">
@@ -1573,7 +1576,7 @@
 								<div class="ecology-cards__bottom-row">
 									<p class="ecology-cards__description">В России</p>
 									<div class="ecology-cards__elem desktop-m">
-										<p class="ecology-cards__number"><span data-countup="28" data-countup-prefix="+"></span><span class="indicators__suffix">%</span></p>
+										<p class="ecology-cards__number" data-countup="28" data-countup-prefix="+" data-countup-suffix="%"></p>
 										<p class="ecology-cards__subtext">рост популяции зубров в Турмонском заказнике</p>
 									</div>
 								</div>
@@ -1787,7 +1790,7 @@
 											<li class="charity-cards__list-item"><svg class="charity-cards-svg list-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 												</svg>
-												<p class="text list__text charity-cards__text">Содействовали развитию детско-юношеского спорта в регионах Казахстана: профинансировали строительство мини-футбольного поля и универсальной площадки для баскетбола и волейбола; приобрели тренажеры и спортивный инвентарь; организовали спортивные секции для детей сотрудников компании и региональные спортивные турниры ОТЛК&amp;nbsp;ЕРА.</p>
+												<p class="text list__text charity-cards__text">Содействовали развитию детско-юношеского спорта в регионах Казахстана: профинансировали строительство мини-футбольного поля и универсальной площадки для баскетбола и волейбола; приобрели тренажеры и спортивный инвентарь; организовали спортивные секции для детей сотрудников компании и региональные спортивные турниры ОТЛК&nbsp;ЕРА.</p>
 											</li>
 											<li class="charity-cards__list-item"><svg class="charity-cards-svg list-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
@@ -1929,7 +1932,7 @@
 									<li class="purchase-documents__item"><svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
 										</svg>
-										<p class="text purchase-documents__text">Инструкция по взаимодействию структурных подразделений ОТЛК&amp;nbsp;ЕРА при осуществлении закупок товаров, работ, услуг, утвержденная приказом генерального директора № 63 от 16.09.2022</p>
+										<p class="text purchase-documents__text">Инструкция по взаимодействию структурных подразделений ОТЛК&nbsp;ЕРА при осуществлении закупок товаров, работ, услуг, утвержденная приказом генерального директора № 63 от 16.09.2022</p>
 									</li>
 									<li class="purchase-documents__item"><svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M2.99951 9.79102L7.99951 14.791L16.9995 5.79102" stroke="#045C25" stroke-width="1.66667"></path>
