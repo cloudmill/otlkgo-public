@@ -1,18 +1,4 @@
 /*!
- * Lightbox v2.11.4
- * by Lokesh Dhakar
- *
- * More info:
- * http://lokeshdhakar.com/projects/lightbox2/
- *
- * Copyright Lokesh Dhakar
- * Released under the MIT license
- * https://github.com/lokesh/lightbox2/blob/master/LICENSE
- *
- * @preserve
- */
-
-/*!
  * Sizzle CSS Selector Engine v2.3.10
  * https://sizzlejs.com/
  *
@@ -36,3 +22,7 @@
  *
  * Date: 2023-03-08T15:28Z
  */
+
+//! moment.js
+
+//! moment.js locale configuration
